@@ -1,0 +1,136 @@
+body{
+	background-image:url(gym.jpg);
+	font-family:verdana;
+	font-size:14px;
+	margin:0px;
+	cursor:url(dum.png),default;
+}
+#header
+{
+	background-color:rgb(242,215,146);
+	background:linear-gradient(rgb(242,215,146),rgb(50,156,138));
+	opacity:0.9;
+	height:80px;
+	
+}
+#header p
+{
+	color:rgb(47,157,213);
+	text-shadow:3px 3px 3px rgb(30,94,149);
+	font-size:40px;
+	margin:0px;
+	position:relative;
+	top:50%;
+	-webkit-transform:translateY(-50%);
+	-ms-transform:translateY(-50%);
+	transform:translateY(-50%);
+}
+.imagec{
+	margin-left:20px;
+	margin-right:10px;
+	border:3px black double;
+	float:left;
+	border-radius:40px;
+}
+.gif{
+	margin:0px;
+	margin-left:270px;
+	float:left;
+	
+}
+.gif1{
+	margin:0px;
+	margin-right:240px;
+	float:right;
+	-webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+#navbar{
+	background:rgb(242,215,146);
+	background:linear-gradient(to top,rgb(242,215,146),rgb(50,156,138));
+	opacity:0.9;
+	margin-top:8px;
+	margin-bottom:15px;
+	height:35px;
+	border-radius:10px;
+	font-size:1.5em;
+	color:rgb(47,157,213);
+	text-shadow:1px 1px 1px rgb(30,94,149);
+}
+#navbar ul{
+	list-style-type:none;
+	text-align:center;
+	
+}
+#navbar li
+{ display:inline;
+padding:20px;
+vertical-align:middle;
+}
+#navbar a
+ {   text-decoration:none;
+	padding:8px;
+	vertical-align:middle;
+}
+#navbar a:hover
+{ 
+background-color:gray;
+}
+.button
+{ 
+border:3px rgb(30,94,149) ridge;
+border-radius:10px;
+}
+.button:hover{
+	border:3px rgb(50,156,138) ridge;
+}
+.image1
+{float:right;
+border:2px ridge white;
+margin-right:5px;
+
+}
+.para
+{ margin:10px;
+	background-color:gray;
+	opacity:0.8;
+	margin-right:320px;
+	border-radius:5px;
+}
+.para:hover{
+	opacity:1.0;
+	font-weight:bold;
+	margin:0px;
+	margin-right:330px;
+}
+.para1
+{
+	margin-left:300px;
+	color:black;
+	font-size:1.5em;
+	text-shadow:2px 2px 2px white;
+	margin-top:30px;
+}
+.video
+{
+	margin-left:340px;
+	border:3px inset gray;
+}
+.join{
+	position:fixed;
+	top:260px;
+	left:495px;
+}
+#footer
+{   margin-top:54px;
+height:20.5px;
+	color:white;
+	background-color:black;
+}
+@media (max-width: 600px)
+{ 
+.imagec
+{
+	float:left;
+}
+}

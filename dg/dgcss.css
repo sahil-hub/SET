@@ -1,0 +1,117 @@
+body{
+	margin:0px;
+	font-family:verdana;
+}
+#header{
+	background-color:rgb(61,88,17);
+	background:linear-gradient(rgb(61,88,17),rgb(176,194,134));
+	height:80px;
+}
+#header p{
+	color:rgb(229,133,56);
+	font-size:55px;
+	text-shadow:3px 3px 1px rgb(156,48,2);
+	margin:0px;
+}
+.back{
+	float:right;
+	margin:25px;
+	font-size:20px;
+	color:brown;
+	text-decoration:none;
+	background-color:rgb(176,194,134);
+	background:linear-gradient(to top,rgba(61,88,17,0.5),rgb(176,194,134));
+	border-top-left-radius:10px;
+	border-bottom-right-radius:10px;
+}
+.back:hover{
+	font-size:23px;
+	margin:23px;
+}
+.imagec{
+	float:right;
+	margin-right:20px;
+	margin-top:10px;
+	border:3px black double;
+	border-radius:40px;
+}
+#main{
+	background-image:url(back.jpg);
+	height:550px;
+	margin-right:270px;
+}
+#main .button{
+	position:fixed;
+	height:120px;
+	width:120px;
+	background-color:rgb(122,130,150);
+	background:linear-gradient(rgb(122,130,150),rgba(180,184,195,0.8));
+	margin:25px;
+	text-decoration:none;
+	border-radius:80px;
+	font-size:25px;
+	border:2px double black;
+}
+#main .button:hover{
+	background-color:white;
+	border:3px ridge rgb(122,130,150);
+}
+#main .button p{
+	
+	margin-left:20px;
+	position:relative;
+	top:30%;
+	-webkit-transform:translateY(-50%);
+	-ms-transform:translateY(-50%);
+	transform:translateY(-50%);
+}
+#main a{
+	color:black;
+}
+#sidebar
+{
+	float:right;
+	height:550px;
+	width:270px;
+	background-color:rgba(156,48,2,0.9);
+	background:linear-gradient(to right,rgba(156,48,2,0.9),rgb(229,133,56));
+}
+#sidebar h2{
+	margin-left:40px;
+	color:white;
+	text-shadow:3px 3px 1px black;
+}
+#sidebar p{
+	background-color:rgb(61,88,17);
+	background:linear-gradient(to top,rgb(61,88,17),rgb(176,194,134));
+	margin:10px;
+	margin-left:50px;
+	border:2px inset black;
+	width:120px;
+	border-radius:5px;
+	
+	}
+#sidebar p a{
+	color:black;
+	text-decoration:none;
+	margin-left:10px;
+}
+#sidebar p:hover{
+	background-color:rgba(45,93,81,0.8);
+	background:linear-gradient(rgba(45,93,81,0.8),gray);
+}
+#sidebar p a:hover{
+	color:white;
+}
+.gif
+{
+	margin:9px;
+	margin-top:50px;
+	border:4px double black;
+}
+#footer{
+	background-color:black;
+	height:23px;
+	font-size:14px;
+	color:white;
+}

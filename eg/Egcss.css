@@ -1,0 +1,124 @@
+body{
+	margin:0px;
+	background-color:rgb(45,93,81);
+	font-family:verdana;
+}
+#header{
+	background-color:black;
+	background:linear-gradient(black,rgba(81,71,86,0.9));
+	height:80px;
+	
+}
+#header p{
+	color:white;
+	font-size:55px;
+	text-shadow:3px 3px 1px gray;
+	margin:0px;
+}
+.back{
+	float:right;
+	margin:25px;
+	font-size:20px;
+	color:white;
+	text-shadow:1px 1px 0px gray;
+	background-color:black;
+	background:linear-gradient(to top,black,rgb(81,71,86));
+	border-top-left-radius:10px;
+	border-bottom-right-radius:10px;
+}
+.back:hover{
+	font-size:23px;
+	margin:23px;
+}
+.imagec{
+	float:right;
+	margin-right:20px;
+	margin-top:10px;
+	border:3px black double;
+	border-radius:40px;
+}
+#main
+{background-image:url(back.jpg);
+height:540px;
+margin:2px;
+margin-right:280px;
+border-radius:5px;
+}
+#main .button{
+	float:left;
+	height:110px;
+	width:180px;
+	background-color:black;
+	background:linear-gradient(black,rgba(81,71,86,0.8));
+	margin:25px;
+	text-decoration:none;
+	
+	
+}
+#main .button p{
+	font-size:28px;
+	margin-left:45px;
+	position:relative;
+	top:30%;
+	-webkit-transform:translateY(-50%);
+	-ms-transform:translateY(-50%);
+	transform:translateY(-50%);
+}
+#main a{
+	color:white;
+}
+#main .button:hover{
+	background-color:white;
+	background:linear-gradient(white,rgba(81,71,86,1));
+	color:black;
+	height:120px;
+	width:190px;
+	margin:20px;
+}
+#sidebar{
+	background-color:gray;
+	background:linear-gradient(to right,gray,rgb(81,71,86));
+	float:right;
+	width:275px;
+	height:540px;
+	margin:2px;
+   border-radius:5px;
+}
+#sidebar h2{
+	margin-left:40px;
+	color:white;
+	text-shadow:3px 3px 1px black;
+}
+#sidebar p{
+	background-color:gray;
+	background:linear-gradient(gray,rgb(45,93,81));
+	margin:10px;
+	margin-left:50px;
+	border:2px inset black;
+	width:150px;
+	border-radius:5px;
+	
+	}
+#sidebar p a{
+	color:black;
+	text-decoration:none;
+}
+#sidebar p:hover{
+	background-color:rgb(45,93,81);
+	background:linear-gradient(rgb(45,93,81),black);
+}
+#sidebar p a:hover{
+	color:white;
+}
+.gif
+{
+	margin:9px;
+	margin-top:50px;
+	border:4px double black;
+}
+#footer{
+	background-color:black;
+	height:23px;
+	font-size:14px;
+	color:white;
+}
